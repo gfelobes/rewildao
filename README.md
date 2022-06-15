@@ -1,4 +1,4 @@
-# REWild DAO
+# reWild DAO
 
 ### Demo 
 
