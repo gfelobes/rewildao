@@ -13,9 +13,9 @@ reWILD DAO is a crowdfunding ecosystem in the blockchain which is orchestrated i
 * Node.js
 
 ## Files
-This repo contains 7 files namely:
-* `voting_ballet.sol` : Linear model for US Field
-* `chairtysmartcontract.sol` : Python file for data wrangling
+This repo contains 4 files namely:
+* `voting_ballet.sol` : Solidity file for the smart contract to vote on proposals
+* `chairtysmartcontract.sol` : Charity smart contract
 * `createBytes.js` : Python file fo model development
 * `parseBytes.js` : Python file for model developing (scripting still ongoing)
 
