@@ -1,5 +1,17 @@
 # reWild DAO
 
+
+
+
+
+
+
+
+
+
+
+
+
 ### Demo 
 
 ### Pitch video 
