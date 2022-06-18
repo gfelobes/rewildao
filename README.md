@@ -15,7 +15,7 @@ reWILD DAO is a crowdfunding ecosystem in the blockchain which is orchestrated i
 
 ## Dependencies
 * Truffle
-* ganache
+* Ganache
 * Node.js
 
 ## Files
