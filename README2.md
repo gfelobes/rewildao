@@ -28,4 +28,15 @@ This repo contains 4 files namely:
 * `winnerName` : Calls winningProposal() function to get the index of the winner contained in the proposals array and then returns the name of the winner
 
 Main conmponents of the `chairtysmartcontract.sol` include:
-* `giveRightToVote` : 
+* `createProposal` : 
+* `vote` : 
+* `votable` : 
+* `payCharity` : 
+* `makeStakeholder` : 
+* `getProposals` : 
+* `getProposal` : 
+* `getStakeholderVotes` : 
+* `getStakeholderBalance` : 
+* `isStakeholder` : 
+* `getContributorBalance` : 
+* `isContributor` : 
