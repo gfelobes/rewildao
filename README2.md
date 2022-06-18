@@ -21,10 +21,10 @@ This repo contains 4 files namely:
 
 ##  Smart Contract Features
 `voting_ballet.sol` smart contract include the following functionalities:
-* `giveRightToVote` : 
-* `delegate` : 
-* `vote` :
-* `winningProposal` :
+* `giveRightToVote` : Function returns a boolean (i.e. true or false); is true, a voter as already voted or delegate his or her right to vote to another voter, and if false, voter has                         not voted yet and has a weight (voting power) = 1.
+* `delegate` : Delegate votes to another voter
+* `vote` : Give vote (including votes delegated to self) to proposal 'proposals[proposal].name'
+* `winningProposal` : Computes the winning proposal taking all previous votes into account
 * `winnerName` :
 
 Main conmponents of the `voting_ballet.sol` include:
