@@ -9,12 +9,11 @@ Features & Benefits: Rewilding, Carbon Capture, Education/ contribution, Transpa
 
 
 ## Demo 
-[![Watch the video](figma_demo.PNG)](https://drive.google.com/file/d/14mEP1Mp_aeS0GefBDeWz3q5suckSavlm/view?usp=sharing)
+[![Watch the video](figma_demo.PNG)](https://youtu.be/SFtsUrz0o0A)
 
 
 ## Pitch video
-[![Watch the video](video_cover.PNG)](https://drive.google.com/file/d/1foBmeCJeK7Ue9SiCf7xHi3oNVV_P0ncb/view?usp=sharing)
-
+[![Watch the video](video_cover.PNG)](https://youtu.be/iJS-qD1JTiU)
 
 
 ## Smart contract addresses: 
