@@ -5,7 +5,7 @@
 ## Project Description
 For our DAO Investors, we enable easy participation in a natural carbon capture process, through our support of a forest creation service that is continuously tracked and transparent, to recreate the lungs of the earth and support new forest development on non-productive agriculture land. Bringing together a community of individuals to pool their money and vote on usage of forest creation. The DAO is a global and scalable way to restore forest cover. It provides the opportunity to participate in conservation by creating real world forests and experiencing their digital recreation in the metaverse. reWILD DAO is a crowdfunding ecosystem in the blockchain which is orchestrated in a smart contract. The smart contracts are developed in Solidity
 
-Features & Benefits: Rewilding, Carbon Capture, Education/ contribution, Transparency, Monitoring & Tracking Tools, Wilding the Metaverse
+Features & Benefits: Rewilding, Carbon Capture, Education/Contribution, Transparency, Monitoring & Tracking Tools, Wilding the Metaverse
 
 
 ## Demo 
