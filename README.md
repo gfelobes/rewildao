@@ -1,22 +1,35 @@
 # reWILD DAO
+rewildao\logo.jpg
 
-## Demo 
 
-## Pitch video
 
 ## Project Description
-Bringing together a community of individuals to pool their money and vote on usage of forest creation. The DAO is a global and scalable way to restore forest cover. It provides the opportunity to participate in conservation by creating real world forests and experiencing their digital recreation in the metaverse. 
+For our DAO Investors, we enable easy participation in a natural carbon capture process, through our support of a forest creation service that is continuously tracked and transparent, to recreate the lungs of the earth and support new forest development on non-productive agriculture land. Bringing together a community of individuals to pool their money and vote on usage of forest creation. The DAO is a global and scalable way to restore forest cover. It provides the opportunity to participate in conservation by creating real world forests and experiencing their digital recreation in the metaverse. reWILD DAO is a crowdfunding ecosystem in the blockchain which is orchestrated in a smart contract. The smart contracts are developed in Solidity
 
-reWILD DAO is a crowdfunding ecosystem in the blockchain which is orchestrated in a smart contract. The smart contracts are developed in Solidity
+Features & Benefits: Rewilding, Carbon Capture, Education/ contribution, Transparency, Monitoring & Tracking Tools, Wilding the Metaverse
 
-## Problem Statement
 
-## Objectives
+## Demo 
+add image with url link 
+rewildao\reWILD DAO - Figma - 22 June 2022.mp4
 
-## Dependencies
-* Truffle
-* Ganache
-* Node.js
+## Pitch video
+add image with url link 
+rewildao\reWILD DAO - Presentation - 23 June 2022.mp4
+
+
+## Smart contract addresses: 
+The smart contracts are accessible on the celo blockchain 
+
+Smart contract 1 address:
+Smart contract 2 address: 
+Smart contract 2 address: 
+
+## Tech Stack 
+* Solidity 
+* Remix IDE 
+* Openzepplin 
+* Javascript 
 
 ## Files
 This repo contains 4 files namely:
@@ -25,7 +38,8 @@ This repo contains 4 files namely:
 * `createBytes.js` : Convert strings to Byte32
 * `parseBytes.js` : Convert strings to Byte32
 
-##  Smart Contract Features
+##  Smart Contract 1 
+### Description: 
 `voting_ballet.sol` smart contract include the following functionalities:
 * `giveRightToVote` : Function returns a boolean (i.e. true or false). If true, a voter as already voted or delegate his or her right to vote to another voter, and if false, voter has not voted yet and has a weight (voting power) = 1
 * `delegate` : Delegate votes to another voter
@@ -33,6 +47,8 @@ This repo contains 4 files namely:
 * `winningProposal` : Computes the winning proposal taking all previous votes into account
 * `winnerName` : Calls the `winningProposal()` function to get the index of the winner contained in the proposals array and then returns the name of the winner
 
+## Smart Contract 2
+### Description: 
 Main components of the `chairtysmartcontract.sol` include:
 * `createProposal` :  Interacts with blockchain state, which we can call in our dApp to add a new Proposal, it accepts three parameters: `description`, `charityAddress` and `amount`
 * `vote` : An external function that allows voting on proposals when called with the proposal’s id and a second true/false argument depending on whether the vote is in support or against the proposal
@@ -47,8 +63,5 @@ Main components of the `chairtysmartcontract.sol` include:
 * `getContributorBalance` : Returns the total balance of a contributor
 * `isContributor` : Returns true or false depending on whether the caller is a contributor or not
 
-## Tech Stack 
 
-## Contributors
 
-## Important Links

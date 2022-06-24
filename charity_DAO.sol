@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
+//https://github.com/ehteshaxm/CharityDAO/blob/master/ethereum/contracts/CharityDAO.sol
 pragma solidity '0.8.9';
 
 contract DAO {
