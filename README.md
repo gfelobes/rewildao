@@ -1,6 +1,5 @@
 # reWILD DAO
-rewildao\logo.jpg
-
+![alt text](logo.jpg?raw=true)
 
 
 ## Project Description
@@ -10,12 +9,12 @@ Features & Benefits: Rewilding, Carbon Capture, Education/ contribution, Transpa
 
 
 ## Demo 
-add image with url link 
-rewildao\reWILD DAO - Figma - 22 June 2022.mp4
+[![Watch the video](figma_demo.PNG)](https://drive.google.com/file/d/14mEP1Mp_aeS0GefBDeWz3q5suckSavlm/view?usp=sharing)
+
 
 ## Pitch video
-add image with url link 
-rewildao\reWILD DAO - Presentation - 23 June 2022.mp4
+[![Watch the video](video_cover.PNG)](https://drive.google.com/file/d/1foBmeCJeK7Ue9SiCf7xHi3oNVV_P0ncb/view?usp=sharing)
+
 
 
 ## Smart contract addresses: 
@@ -33,14 +32,18 @@ Smart contract 2 address:
 
 ## Files
 This repo contains 4 files namely:
-* `voting_ballet.sol` : Solidity file for the smart contract to vote on proposals
-* `chairtysmartcontract.sol` : Charity smart contract
+* `Script1_voting_ballet.sol` : Solidity file for the smart contract to vote on proposals
+* `Script2_Script2_Accept_donations.sol` : Charity smart contract to accept donations 
 * `createBytes.js` : Convert strings to Byte32
-* `parseBytes.js` : Convert strings to Byte32
+* `parseBytes.js` : Convert Byte32 to strings 
+
+The conversion between Byte32 and strings would be used along with the react-native application. Byte32 is preferrable over strings in smart contracts since it saves on gas fees. 
+ 
+Use Remix IDE to test and deploy the code
 
 ##  Smart Contract 1 
 ### Description: 
-`voting_ballet.sol` smart contract include the following functionalities:
+Main components of the `Script1_voting_ballet.sol` include:
 * `giveRightToVote` : Function returns a boolean (i.e. true or false). If true, a voter as already voted or delegate his or her right to vote to another voter, and if false, voter has not voted yet and has a weight (voting power) = 1
 * `delegate` : Delegate votes to another voter
 * `vote` : Give vote (including votes delegated to self) to proposal `proposals[proposal].name`
@@ -49,19 +52,10 @@ This repo contains 4 files namely:
 
 ## Smart Contract 2
 ### Description: 
-Main components of the `chairtysmartcontract.sol` include:
-* `createProposal` :  Interacts with blockchain state, which we can call in our dApp to add a new Proposal, it accepts three parameters: `description`, `charityAddress` and `amount`
-* `vote` : An external function that allows voting on proposals when called with the proposal’s id and a second true/false argument depending on whether the vote is in support or against the proposal
-* `votable` : Verifies if a proposal can be voted on
-* `payCharity` : Handles payment to the specified address after the voting period of the proposal has ended. It takes the proposalId as an argument and retreives that proposal from the mapping
-* `makeStakeholder` : Adds a new Stakeholder to the DAO if the total contribution of the user is more than or equal to 5 Celo. If the total contribution is less than 5 then the user is made a Contributor instead
-* `getProposals` : Returns a list of all the proposals in the DAO here
-* `getProposal` : Takes a proposal id as an argument to get the proposal from the mapping, then return the proposal
-* `getStakeholderVotes` : Gets and returns a list containing the id of all the proposals that a particular stakeholder has voted on
-* `getStakeholderBalance` : Returns the total amount of contribution a stakeholder has contributed to the DAO
-* `isStakeholder` : Returns true or false depending on whether the caller is a stakeholder or not
-* `getContributorBalance` : Returns the total balance of a contributor
-* `isContributor` : Returns true or false depending on whether the caller is a contributor or not
-
-
+Main components of the `Script2_Accept_donations.sol` include:
+* `fund` : Allows addition of funds to smart contract with a requirements of minimum spend
+* `getVersion` : Get decentralized chainlink orcale version which will be used to get the price conversion between ETH and USD 
+* `getPrice` : Function to get price of ETH in USD (values returned in Wei, and get converted to ETH)
+* `getConversionRate` : FUnction that convert a given input amount ETH and return converted value to USD 
+* `withdraw` : FUnction allows the owner of the smart contract (in this case reWild DAO) to withdraw the deposits to the owner (chairty) wallet address 
 

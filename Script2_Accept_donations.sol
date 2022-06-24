@@ -4,7 +4,7 @@
 
 // Smart contract that lets anyone deposit ETH into the contract
 // Only the owner of the contract can withdraw the ETH
-pragma solidity >=0.6.6 <0.9.0;
+pragma solidity >= 0.8.9 < 0.8.15;
 
 // Get the latest ETH/USD price from chainlink price feed
 import "@chainlink/contracts/src/v0.7/interfaces/AggregatorV3Interface.sol";
